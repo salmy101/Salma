@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,400&display=swap");
+.nav {
+  border-bottom: 0.5px solid #000;
+  width: 100vw;
+  height: 80px;
+  top: 0; /* Position the navbar at the top of the page */
+  position: fixed;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  /* background-color: rgb(203, 190, 190); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* align-items: stretch; */
+  padding: 0 2rem;
+  
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-item {
+  text-decoration: none;
+}

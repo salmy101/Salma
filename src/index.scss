@@ -1,0 +1,24 @@
+html{
+  font-size: 62.5%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,400&family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 300 28px/1.4 'Poppins', "sans-serif";
+  background: rgb(203, 190, 190);
+  color: black;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   /* padding-top: 90px; */
+
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

@@ -1,12 +1,9 @@
 import React from 'react'
-import "./index.css"
 
-const main = function(){
-  return(
-    <div className='header'>
-      <h1>Main</h1>
-    </div>
+const Main = () => {
+  return (
+    <h1>MAIN</h1>
   )
 }
 
-export default main;
+export default Main;

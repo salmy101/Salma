@@ -1,16 +1,20 @@
-import './App.css';
-import Main from "./components/Main/index"
-import Nav from "./components/Nav/index"
-
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import './App.scss'
+import Layout from './components/Layout'
+import Main from './components/Main'
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Main />
-      
-    </div>
-  );
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Main />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
+  )
 }
 
-export default App;
+export default App

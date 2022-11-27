@@ -10,6 +10,7 @@
   /* background-color: rgb(203, 190, 190); */
   display: flex;
   justify-content: space-between;
+
   align-items: center;
   /* align-items: stretch; */
   padding: 0 2rem;
@@ -20,6 +21,7 @@
   display: flex;
   list-style: none;
   gap: 2rem;
+  padding: 0 5rem;
 }
 
 .nav-item {

@@ -5,8 +5,11 @@
   top: 0;
   z-index: 3;
   min-height: 500px;
-  background-color: rgb(133, 145, 173);
+  background-color: #688a93;
   padding: 0 2rem;
+}
+h1{
+  color: #ffffff;
 }
 
 nav {
@@ -18,10 +21,11 @@ nav {
   top: 50%;
   margin-top: -120px;
   width: 100%;
+  
 
   a{
     font-size: 19px;
-    color: #4d4d4e;
+    color: rgb(249, 249, 249);
     display: block;
     line-height: 51px;
     height: 51px;
@@ -29,7 +33,7 @@ nav {
     text-decoration: none;
     
       &:hover {
-        color: #441e5c;
+        color: #ffffff;
     
       }
   }

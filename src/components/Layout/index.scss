@@ -18,11 +18,10 @@
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
 
-  // margin-left: 70px;
+  margin-left: 50px;
 
   
 }
-
 
 .text-zone{
   position: absolute;
@@ -49,5 +48,14 @@
     margin-bottom: 40px;
     left: 10px;
   }
+
+  p{
+    font-size: 18px;
+    color: #ffff;
+    font-family: sans-serif;
+    font-weight: 300;
+    min-width: fit-content;
+    animation: pulse 1s;
+  }  
 
 }

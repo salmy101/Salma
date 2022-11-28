@@ -1,3 +1,14 @@
-.logo{
-  animation: fadeInDownBig 1.5s;
+img:first-child  {
+  animation: fadeInDown 1.0s 1.0s;
+  
+}
+img:last-child{
+  animation: fadeInUp 1.0s 1.0s;
+}
+
+.banner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
 }

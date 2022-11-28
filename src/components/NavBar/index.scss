@@ -1,0 +1,37 @@
+.nav-bar {
+  width: 90px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  min-height: 500px;
+  background-color: rgb(133, 145, 173);
+  padding: 0 2rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  height: 210px;
+  top: 50%;
+  margin-top: -120px;
+  width: 100%;
+
+  a{
+    font-size: 19px;
+    color: #4d4d4e;
+    display: block;
+    line-height: 51px;
+    height: 51px;
+    position: relative;
+    text-decoration: none;
+    
+      &:hover {
+        color: #441e5c;
+    
+      }
+  }
+
+}

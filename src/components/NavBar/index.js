@@ -21,8 +21,8 @@ const Nav = () => {
         <NavLink
           exact="true"
           activeclassname="active"
-          className="home-link"
-          to="/"
+          className="about-link"
+          to="/about"
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d43"  /> About
 
@@ -30,8 +30,8 @@ const Nav = () => {
         <NavLink
           exact="true"
           activeclassname="active"
-          className="home-link"
-          to="/"
+          className="portfolio-link"
+          to="/portfolio"
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d43"  /> Portfolio
 
@@ -39,8 +39,8 @@ const Nav = () => {
         <NavLink
           exact="true"
           activeclassname="active"
-          className="home-link"
-          to="/"
+          className="connect-link"
+          to="/connect"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d43"  /> Connect
 

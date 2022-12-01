@@ -42,11 +42,11 @@ const Nav = () => {
         <NavLink
           exact="true"
           activeclassname="active"
-          className="connect-link"
-          to="/connect"
+          className="contact-link"
+          to="/contact"
         >
           {/* <FontAwesomeIcon icon={faEnvelope} color="#4d4d43"  />  */}
-          Connect
+          Contact
 
         </NavLink>
       </nav>

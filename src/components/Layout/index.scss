@@ -15,7 +15,7 @@
   z-index: 1;
   transform-style: preserve-3d;
   opacity: 0; //need opacity 0 to begin with in order for inital fade in to work
-  animation: fadeIn 1s forwards;
+  animation: fadeIn 1.3s forwards;
   animation-delay: 1s;
 
   margin-left: 50px;
@@ -56,6 +56,8 @@
     font-weight: 300;
     min-width: fit-content;
     animation: pulse 1s;
+     animation-delay: 1s;
+
   }  
 
 }

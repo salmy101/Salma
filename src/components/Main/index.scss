@@ -1,9 +1,12 @@
 img:first-child  {
-  animation: fadeInDown 1.0s 1.0s;
+  animation: fadeInDown 1.2s 1.0s;
   
 }
 img:last-child{
-  animation: fadeInUp 1.0s 1.0s;
+  animation: fadeInUp 1.2s 1.0s;
+  // animation: fadeInOut 1.0s 1.0s;
+
+  
 }
 
 .banner{
@@ -12,3 +15,15 @@ img:last-child{
   justify-content: space-evenly;
   
 }
+
+// @keyframes myAnimation{
+//   0%{
+//     // opacity: 1;
+//   animation: fadeInUp 1.0s 1.0s;
+// }
+
+//   100%{
+ 
+//     animation: fadeInOut 1.0s 1.0s;
+//   }
+// }

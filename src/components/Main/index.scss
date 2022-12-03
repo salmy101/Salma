@@ -1,21 +1,27 @@
-img:first-child  {
-  animation: fadeInDown 1.2s 1.0s;
-  
+img:first-child {
+  animation: fadeInLeft 1.2s 1s;
 }
-img:last-child{
-  animation: fadeInUp 1.2s 1.0s;
+img:last-child {
+  animation: fadeInRight 1.2s 1s;
   // animation: fadeInOut 1.0s 1.0s;
-
-  
 }
 
-.banner{
+.banner {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  
 }
 
+.outline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1.5px solid black;
+  width: 80%;
+  height: 40%;
+  margin-top: 100px;
+}
 // @keyframes myAnimation{
 //   0%{
 //     // opacity: 1;
@@ -23,7 +29,7 @@ img:last-child{
 // }
 
 //   100%{
- 
+
 //     animation: fadeInOut 1.0s 1.0s;
 //   }
 // }

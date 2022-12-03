@@ -15,7 +15,7 @@ export default function Portfolio() {
         </p>
       </div>
     </div>
-    <Loader type="ball-scale-ripple-multiple"/>
+    {/* <Loader type="ball-scale-ripple-multiple"/> */}
 
     </>
   )

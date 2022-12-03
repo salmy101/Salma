@@ -1,12 +1,13 @@
+import "./index.scss"
 import React from 'react'
 import Loader from 'react-loaders'
 
-export default function About() {
+export default function Portfolio() {
   return (
     <>
-    <div className="container about-page">
+    <div className="container portfolio-page">
       <div className="text-zone">
-        <h1>ABOUT</h1>
+        <h1>PORTFOLIO</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus

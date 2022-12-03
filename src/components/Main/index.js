@@ -11,6 +11,8 @@ const Main = () => {
   return (
     <>
     <div className="container home-page">
+
+       
       <div className='banner'>
         
     {/* <img src={name} alt="Your SVG" className='rotating'/>
@@ -22,8 +24,6 @@ const Main = () => {
     <img src={role} alt="role SVG" />
 
       </div>
-
-       
       <div className="text-zone">
         <h1>Hi, im Salma</h1>
         <Loader type="pacman"/>

@@ -2,6 +2,7 @@ import React from 'react'
 import './index.scss'
 import name from '../../assests/name.svg'
 import role from '../../assests/role.svg'
+import Logo from "./Logo/index"
 
 import 'animate.css'
 import Loader from 'react-loaders'
@@ -20,13 +21,8 @@ const Main = () => {
 
           <img src={role} alt="role SVG" />
         </div>
-        <div className="text-zone outline">
-          {/* <h1>Hi, im Salma</h1> */}
-          <p>
-            YYYY
-          </p>
-          
-        </div>
+        <Logo />
+        
         
       </div>
       <Loader type="ball-scale-ripple-multiple" />

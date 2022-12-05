@@ -4,7 +4,7 @@
   position: absolute;
 }
 
-.container { 
+.container {
   width: 100%;
   will-change: contents;
   height: 100%;
@@ -17,28 +17,13 @@
   opacity: 0; //need opacity 0 to begin with in order for inital fade in to work
   animation: fadeIn 1.3s forwards;
   animation-delay: 1s;
-
   margin-left: 50px;
-
-  
 }
 
-.text-zone{
-  position: absolute;
-  // font-size: 22px;
-  left: 10%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 45%;
-  vertical-align: middle;
-  display: table-cell;
-  max-height: 95%;
-  // opacity: 0; //need opacity 0 to begin with in order for inital fade in to work
-  // animation: fadeIn 1s forwards;
-  // animation-delay: 1s;
-
-
-  h1{
+.container.about-page,
+.container.portfolio-page,
+.container.contact-page {
+  h1 {
     font-size: 58px;
     color: #5e8b96;
     // font-family: 'Coolvetica';
@@ -49,15 +34,28 @@
     left: 10px;
   }
 
-  p{
+  p {
     font-size: 18px;
     color: rgb(4, 4, 4);
     font-family: sans-serif;
     font-weight: 300;
     min-width: fit-content;
     animation: pulse 1s;
-     animation-delay: 1s;
+    animation-delay: 1s;
+  }
 
-  }  
-
+  .text-zone {
+    position: absolute;
+    // font-size: 22px;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 95%;
+    // opacity: 0; //need opacity 0 to begin with in order for inital fade in to work
+    // animation: fadeIn 1s forwards;
+    // animation-delay: 1s;
+  }
 }

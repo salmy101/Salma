@@ -46,7 +46,7 @@ const Nav = () => {
           to="/contact"
         >
           {/* <FontAwesomeIcon icon={faEnvelope} color="#4d4d43"  />  */}
-          Contact
+          Cont
 
         </NavLink>
       </nav>

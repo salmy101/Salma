@@ -12,7 +12,7 @@ export default function Logo() {
   return (
     <div className="text-zone outline">
           {/* <h1>Hi, im Salma</h1> */}
-          <img src={role} alt="role SVG" />
+         <img src={role} alt="role SVG" />
 
           
         </div>

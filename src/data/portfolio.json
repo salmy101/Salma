@@ -6,6 +6,13 @@
       "description": "Love books? So do we! With Book'd Up you can build your own virtual bookshelves, the Matchbook tool, and create bookclubs!",
       "stack": "React, ExpressJS, Axios, PostgreSQL, Google books API.",
       "url": "https://github.com/salmy101/Bookd-Up-Final"
+    },
+    {
+      "cover": "/portfolio/project1/project1.png",
+      "title": "Bookd Up",
+      "description": "Love books? So do we! With Book'd Up you can build your own virtual bookshelves, the Matchbook tool, and create bookclubs!",
+      "stack": "React, ExpressJS, Axios, PostgreSQL, Google books API.",
+      "url": "https://github.com/salmy101/Bookd-Up-Final"
     }
   ]
 }

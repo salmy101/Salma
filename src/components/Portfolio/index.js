@@ -37,7 +37,7 @@ export default function Portfolio() {
         <h1 className="page-title">PORTFOLIO</h1>
         <div>{renderPortfolio(portfolioData.portfolio)}</div>
       </div>
-      {/* <Loader type="ball-scale-ripple-multiple"/> */}
+      <Loader type="ball-scale-ripple-multiple"/>
     </>
   )
 }

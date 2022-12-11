@@ -44,7 +44,7 @@
         rgba(0, 0, 0, 0.2) 0,
         rgba(0,0,0,1)
       );
-      // bottom: -70px;
+      bottom: -70px;
     }
 
     .title{
@@ -101,6 +101,9 @@
 
     &:hover:after{
       opacity: 0.85;
+    }
+    &:hover .content{
+      bottom: 0;
     }
   }
 

@@ -1,13 +1,22 @@
 
 .banner {
-  margin-top: 90px;
+  margin-bottom: 90px;
+  // border: 1.5px solid black;
+  height: 90%;
+  width: 45%;
+  margin-left: 90px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  img:first-child {
+  flex-direction: column;
+  justify-content: start;
+  img{
+    height: 55%;
+
+
+  }
+  :first-child {
     animation: fadeInLeft 1.2s 1s;
   }
-  img:last-child {
+  :last-child {
     animation: fadeInRight 1.2s 1s;
     // animation: fadeInOut 1.0s 1.0s;
   }

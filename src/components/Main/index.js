@@ -21,7 +21,7 @@ const Main = () => {
 
           <img src={role} alt="role SVG" />
         </div>
-        {/* <Logo /> */}
+        <Logo />
         
         
       </div>

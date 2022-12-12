@@ -19,7 +19,7 @@ export default function About() {
         <h1>ABOUT</h1>
         <p><b>Hello and Welcome!</b></p>
         <p>
-          My name is Salma Ibrahim and I am an  Full Stack Web Developer. I have my BA in Sociolgy from the University of Alberta, but I got started my coding journey with Lighthouse Labs in the Full-Stack Web Development Bootcamp.
+          My name is Salma Ibrahim and I am a Full Stack Web Developer. I have my BA in Sociolgy from the University of Alberta, but I got started with my coding journey at Lighthouse Labs in the Full-Stack Web Development Bootcamp.
         </p>
         <p>
           I am passionate about building beautiful and accessible web aplications for people, as well as developing new skills.
@@ -79,7 +79,7 @@ export default function About() {
         </div>
       </div>
     
-    {/* <Loader type="ball-scale-ripple-multiple"/> */}
+    <Loader type="ball-scale-ripple-multiple"/>
 
     </>
   )

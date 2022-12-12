@@ -56,11 +56,20 @@
       line-height: 24px;
     }
 
+    
     .description{
       font-size: 14px;
       margin-bottom: 5px;
       color: #fff;
       font-weight: 700;
+    }
+
+    .stack{
+      font-size: 13px;
+      margin-bottom: 5px;
+      color: #fff;
+      font-weight: 500;
+
     }
 
     .btn{
@@ -105,8 +114,8 @@
     &:hover .content{
       bottom: 0;
       background: transparent;
-
     }
+  
   }
 
 }

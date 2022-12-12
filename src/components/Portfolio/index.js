@@ -18,6 +18,8 @@ export default function Portfolio() {
               <div className="content">
                 <p className="title">{project.title}</p>
                 <h4 className="description">{project.description}</h4>
+                <h3 className="stack">TECH STACK: {project.stack}</h3>
+
                 <button
                   className="btn"
                   onClick={() => window.open(project.url)}

@@ -47,7 +47,7 @@ export default function About() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://resume.creddle.io/resume/6x5rwrhs4yh"
+            href="https://docs.google.com/document/d/1iSdhLUPh5jDhALn9Vphg2DSAJgYgkbMw/edit?usp=sharing&ouid=108378852677372517097&rtpof=true&sd=true"
           >
             <FontAwesomeIcon icon={faContactCard} color="#4d4d43" />
           </a>

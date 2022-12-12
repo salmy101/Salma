@@ -1,14 +1,20 @@
-import React from "react";
-import "./index.scss";
-import { Link, NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faHome, faSuitcase, faUser } from "@fortawesome/free-solid-svg-icons";
-
+import React from 'react'
+import './index.scss'
+import { Link, NavLink } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faEnvelope,
+  faHome,
+  faSuitcase,
+  faUser,
+} from '@fortawesome/free-solid-svg-icons'
 
 const Nav = () => {
   return (
     <div className="nav-bar">
-            <h1>SALMA</h1>
+      <NavLink to="/">
+        <h1>SALMA</h1>
+      </NavLink>
       <nav>
         <NavLink
           exact="true"
@@ -27,7 +33,6 @@ const Nav = () => {
         >
           {/* <FontAwesomeIcon icon={faUser} color="#4d4d43"  />  */}
           About
-
         </NavLink>
         <NavLink
           exact="true"
@@ -37,7 +42,6 @@ const Nav = () => {
         >
           {/* <FontAwesomeIcon icon={faSuitcase} color="#4d4d43"  />  */}
           Portfolio
-
         </NavLink>
         <NavLink
           exact="true"
@@ -47,11 +51,10 @@ const Nav = () => {
         >
           {/* <FontAwesomeIcon icon={faEnvelope} color="#4d4d43"  />  */}
           Contact
-
         </NavLink>
       </nav>
     </div>
-  );
+  )
 }
 
-export default Nav; 
+export default Nav

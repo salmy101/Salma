@@ -8,39 +8,25 @@
       "url": "https://github.com/salmy101/Bookd-Up-Final"
     },
     {
-      "cover": "/portfolio/project1/project1.png",
-      "title": "Bookd Up",
-      "description": "Love books? So do we! With Book'd Up you can build your own virtual bookshelves, the Matchbook tool, and create bookclubs!",
-      "stack": "React, ExpressJS, Axios, PostgreSQL, Google books API.",
-      "url": "https://github.com/salmy101/Bookd-Up-Final"
+      "cover": "/portfolio/project1/project2.png",
+      "title": "Interviewer",
+      "description": "Single-page app: where students can choose an interviewer, create, edit and delete interview appointments in real time",
+      "stack": "React, ExpressJS, Axios, StoryBook, Jet Test, Cypress, and Testing-Library.",
+      "url": "https://github.com/salmy101/scheduler"
     },
     {
-      "cover": "/portfolio/project1/project1.png",
-      "title": "Bookd Up",
-      "description": "Love books? So do we! With Book'd Up you can build your own virtual bookshelves, the Matchbook tool, and create bookclubs!",
-      "stack": "React, ExpressJS, Axios, PostgreSQL, Google books API.",
-      "url": "https://github.com/salmy101/Bookd-Up-Final"
+      "cover": "/portfolio/project1/project3.png",
+      "title": "Poller",
+      "description": "Do you need to make a group decision, use this app to make a polling question and send the link to friends, allowing them to vote!",
+      "stack": "ExpressJS, PostgreSQL, EJS.",
+      "url": "https://github.com/salmy101/Poller"
     },
     {
-      "cover": "/portfolio/project1/project1.png",
-      "title": "Bookd Up",
-      "description": "Love books? So do we! With Book'd Up you can build your own virtual bookshelves, the Matchbook tool, and create bookclubs!",
-      "stack": "React, ExpressJS, Axios, PostgreSQL, Google books API.",
-      "url": "https://github.com/salmy101/Bookd-Up-Final"
-    },
-    {
-      "cover": "/portfolio/project1/project1.png",
-      "title": "Bookd Up",
-      "description": "Love books? So do we! With Book'd Up you can build your own virtual bookshelves, the Matchbook tool, and create bookclubs!",
-      "stack": "React, ExpressJS, Axios, PostgreSQL, Google books API.",
-      "url": "https://github.com/salmy101/Bookd-Up-Final"
-    },
-    {
-      "cover": "/portfolio/project1/project1.png",
-      "title": "Bookd Up",
-      "description": "Love books? So do we! With Book'd Up you can build your own virtual bookshelves, the Matchbook tool, and create bookclubs!",
-      "stack": "React, ExpressJS, Axios, PostgreSQL, Google books API.",
-      "url": "https://github.com/salmy101/Bookd-Up-Final"
+      "cover": "/portfolio/project1/project4.png",
+      "title": "Tiny App Url shortener",
+      "description": "Application that shortens any long URL you would like. Juts register with a new account or login if to your existing one and start shortening your own URL.",
+      "stack": "Express, Node.",
+      "url": "https://github.com/salmy101/tinyapp"
     }
   ]
 }

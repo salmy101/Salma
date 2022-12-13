@@ -1,7 +1,7 @@
 .portfolio-page{
   padding-left: 100px;
-  padding-right: 50px;
-  width: calc(100% - 150px);
+  padding-right: 150px;
+  width: calc(100% - 200px);
   position: initial;
   height: 100%;
   overflow: auto; //the other pages dont have scroll bars so we want to be able to scroll
@@ -13,7 +13,7 @@
 
   .images-container{
     display: flex;
-    gap: 15px;
+    gap: 40px;
     flex-wrap: wrap;
     padding-bottom: 100px;
   }

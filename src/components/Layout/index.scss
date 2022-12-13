@@ -20,6 +20,13 @@
   margin-left: 50px;
 }
 
+.stage-cube-cont{
+  opacity: 0; //need opacity 0 to begin with in order for inital fade in to work
+  animation: fadeIn 1.3s forwards;
+  animation-delay: 1s;
+
+}
+
 .container.about-page,
 .container.portfolio-page,
 .container.contact-page {

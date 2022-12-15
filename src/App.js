@@ -12,7 +12,7 @@ import Portfolio from './components/Portfolio'
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Salma">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Main />} />
